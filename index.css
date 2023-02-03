@@ -1,0 +1,612 @@
+.topbarColor {
+    background-image: linear-gradient(to right, #5DCDF6, #1982BC);
+}
+
+.topBarText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
+}
+
+.topBarLighter {
+    font-weight: 100 !important;
+}
+
+.sec1bgImg {
+    background-image: url("./imgs/image\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+.navColor {
+    background-color: transparent;
+}
+
+.NavbarLogo {
+    width: 6em
+}
+
+.sideNav {
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end !important;
+    margin-left: 32em;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: none !important;
+}
+
+.listItemsStyle {
+    font-size: 0.8em !important;
+    font-family: "Raleway" !important;
+    text-decoration: none;
+ 
+    color: #1E1E1E !important;
+    font-weight: 500 !important;
+    font-weight: 600 !important;
+}
+
+.listItemsStyleOffcanvas {
+    font-family: "Raleway" !important;
+}
+
+.carouselImg {
+    filter: brightness(0.7);
+}
+
+.overlaySec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.250), rgba(0, 0, 0, 0.3)), url("./imgs/image\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.panel>p>a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: black;
+}
+
+.heathTreatmentRow {
+    height: 100vh;
+
+}
+
+.overlaySecText1 {
+    font-size: 2em;
+    color: white !important;
+    font-weight: bold;
+    font-family: "Raleway" !important;
+}
+
+.overlaySecText2 {
+    font-size: 18px;
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+.secExportsHead {
+    font-size: 1.5em;
+    font-family: "Raleway" !important;
+    font-weight: 700;
+}
+
+.secExportsText {
+    font-size: 12.5px;
+    color: #7E7E7E;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.underline {
+    color: #1982BC;
+    width: 7em;
+    opacity: 2;
+    font-weight: bold;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 3px solid !important;
+    opacity: .25;
+}
+
+.card-img-top {
+    width: 3.5em !important;
+
+}
+
+.cardImg {
+    width: 5em;
+}
+
+.card {
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    border-radius: 0 !important;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: 100% !important;
+    --bs-card-color: ;
+    background-color: white !important;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border: 1px solid rgba(30, 30, 30, 0.15) !important;
+    margin-top: 1em;
+    padding: 2.8em 1em 1.1em 1em;
+}
+
+.cardShadow:hover {
+    box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
+}
+
+.exportsSec {
+    padding-bottom: 8em;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.exportsCardText {
+    margin-top: 3em;
+    font-size: 12.5px;
+    color: #7E7E7E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btnLearMore {
+    background-color: #1982BC;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    width: 11.2em;
+    padding: 0.7em;
+    text-align: center;
+    margin-top: 1.3em;
+    border: none;
+}
+
+.btnLearMore:hover {
+    background-image: linear-gradient(to bottom, #5DCDF6, #1982BC);
+    color: white !important;
+}
+
+.ourProductSecBgClr {
+    background-image: linear-gradient(to bottom, #5DCDF6, #1982BC);
+
+}
+
+.ourProductSecHead {
+
+    font-size: 1.5em;
+    font-family: "Raleway" !important;
+    font-weight: 700;
+    color: white;
+
+}
+
+.ourProductUnderline {
+    color: white;
+
+    width: 7em;
+    opacity: 2;
+    font-weight: bold;
+
+}
+
+.logoSVG {
+    width: 87%;
+
+}
+
+.footerHead {
+    color: #1982BC;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.underline2 {
+    color: #1982BC;
+    width: 5em;
+    opacity: 2;
+    font-weight: bold;
+
+}
+
+.footerText {
+    font-size: 12.5px;
+    color: #7E7E7E;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footerText>li {
+    list-style: none !important;
+    margin-top: 1em;
+
+}
+.LensesImgs{
+    width: 94%;
+}
+.LensesImgs:hover{
+    width: 100%;
+    margin-top: -0.5em !important;
+    transition: all ease 0.5s;
+}
+.overlaySecIntracular{
+ 
+    background-image: linear-gradient(to right, #1982BC, #d9f4fe);
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+   
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 18px 12px;
+   
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 140px !important;
+    margin-top: 1.3em;
+}
+
+
+
+
+
+
+/* Instruments CSS */
+
+.main-item {
+    padding: 10px;
+    background-color: #fff;
+    width: 700px;
+  }
+  
+  .background-masker {
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .btn-divide-left {
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: 5%;
+  }
+  
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -800px 0
+    }
+    100% {
+      background-position: 800px 0
+    }
+  }
+  
+  .animated-background {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #bbbbbb 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 70px;
+    position: relative;
+  }
+  
+  .static-background {
+    background-color: #f6f7f8;
+    background-size: 800px 104px;
+    height: 70px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .shared-dom {
+    width: 800px;
+    height: 110px;
+  }
+  .sub-rect {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 20px 20px 20px 0;
+  }
+  .pure-background {
+    background-color: #eee;
+  }
+  
+  .css-dom:empty {
+    width: 280px;
+    height: 220px;
+    border-radius: 6px;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, .2);
+    background-repeat: no-repeat;
+    
+    background-image:
+      radial-gradient(circle 16px, lightgray 99%, transparent 0),
+      linear-gradient(lightgray, lightgray),
+      linear-gradient(lightgray, lightgray),
+      linear-gradient(lightgray, lightgray),
+      linear-gradient(lightgray, lightgray),
+      linear-gradient(#fff, #fff); 
+    
+    background-size:
+      32px 32px,
+      200px 32px,
+      180px 32px,
+      230px 16px,
+      100% 40px,
+      280px 100%;
+    
+    background-position:
+      24px 30px,
+      66px 30px,
+      24px 90px,
+      24px 142px,
+      0 180px,
+      0 0;
+  }
+
+  ul>li>a{
+    text-decoration: none;
+    font-size: 1em;
+
+  
+
+  }
+  ul>li{
+    list-style: none;
+    margin-top: 1em;
+  }
+  .InstrumentsFlex{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tabSpeculum{
+    float: left;
+  border:none!;
+  width: 30%;
+  margin-top: 1.3em;
+
+  } 
+
+/* Media Query */
+
+
+@media only screen and (min-device-width : 320px)and (max-device-width : 425px) {
+    .topBarPosition {
+        display: flex;
+        justify-content: space-around;
+    }
+   
+    .sideNav {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .offcanvasToggler {
+        border: none !important;
+        background-color: transparent !important;
+
+    }
+
+    .navColor {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .overlaySec {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.250), rgba(0, 0, 0, 0.3)), url("./imgs/image\ 1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+
+    .heathTreatmentRow {
+        height: 40vh;
+    }
+
+    .overlaySecText1 {
+        font-size: 1em;
+    }
+
+    .overlaySecText2 {
+        font-size: 12.5px;
+        line-height: 1.2em;
+        padding-right: 8em !important;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+    }
+
+    .exportsSec {
+        padding-bottom: 2em;
+    }
+
+    .footerHead {
+        text-align: center;
+    }
+
+    .underline2 {
+        position: relative;
+        left: 38%;
+
+    }
+
+    .footerText {
+        text-align: center;
+    }
+
+    .footerText>li {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-device-width : 426px) and (max-device-width : 768px) {
+  .topBarText{
+    padding-right: 3em;
+  }
+    .sideNav {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .offcanvasToggler {
+        border: none !important;
+        background-color: transparent !important;
+        position: relative !important;
+        left: 26em !important;
+    }
+
+    .overlaySec {
+        background-position-x: center;
+    }
+
+    .overlaySecText1 {
+        font-size: 1.7em;
+    }
+
+    .overlaySecText2 {
+        font-size: 15.4px;
+        padding-top: 0.5em;
+        padding-bottom: 0.8em;
+        line-height: 1.3;
+
+    }
+}
