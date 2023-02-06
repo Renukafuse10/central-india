@@ -1,9 +1,9 @@
 .tablinks{
   color: rgb(255, 111, 0);
 }
-.tablinks:hover{
+/* .tablinks:hover{
   color: black;
-}
+} */
 
 .topbarColor {
   background-image: linear-gradient(to right, #5DCDF6, #1982BC);
@@ -74,7 +74,7 @@
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: end !important;
-  margin-left: 32em;
+  margin-left: 35em;
 }
 
 .navbar-nav {
@@ -82,7 +82,7 @@
 }
 
 .listItemsStyle {
-  font-size: 0.8em !important;
+  font-size: 0.9em !important;
   font-family: "Raleway" !important;
   text-decoration: none;
 
@@ -308,6 +308,7 @@ hr {
 
 .active, .accordion:hover {
   background-color: #ccc;
+  color:black ;
 }
 
 .accordion:after {
@@ -581,6 +582,11 @@ margin-top: 1.3em;
 
   .footerText>li {
       text-align: center;
+  }
+  .InstrumentsFlex{
+    display: block;
+    text-align: center;
+  
   }
 
 }
