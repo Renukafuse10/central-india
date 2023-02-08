@@ -1,3 +1,9 @@
+.sticky {
+  position: fixed;
+  top: 45%;
+  width: 100%;
+  left: 65%;
+}
 .tablinks{
   color: rgb(255, 111, 0);
 }
@@ -56,6 +62,7 @@
   display: block;
 }
 
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -74,7 +81,7 @@
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: end !important;
-  margin-left: 35em;
+  margin-left: 31em;
 }
 
 .navbar-nav {
@@ -87,8 +94,14 @@
   text-decoration: none;
 
   color: #1E1E1E !important;
-  font-weight: 500 !important;
   font-weight: 600 !important;
+  margin-right: 0.9em;
+  
+}
+.listItemsStyle:hover{
+  color: rgb(38, 140, 243) !important;
+  font-weight: 900;
+
 }
 
 .listItemsStyleOffcanvas {
@@ -165,7 +178,7 @@ hr {
 }
 
 .cardImg {
-  width: 5em;
+  width: 7em;
 }
 
 .card {
@@ -202,10 +215,10 @@ hr {
 }
 
 .exportsCardText {
-  margin-top: 1.2em;
   font-size: 12.5px;
   color: #7E7E7E;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .btnLearMore {
@@ -281,13 +294,15 @@ hr {
 
 }
 .LensesImgs{
-  width: 94%;
+  width: 70%;
 }
 .LensesImgs:hover{
-  width: 100%;
+  opacity: 0.5;
   margin-top: -0.5em !important;
-  transition: all ease 0.5s;
+  transition: all ease 0.9s;
+  
 }
+
 .overlaySecIntracular{
 
   background-image: linear-gradient(to right, #1982BC, #d9f4fe);
@@ -330,6 +345,22 @@ hr {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+.ImgHoverLenseText{
+  background-color: #1982BC;
+  opacity: 0;
+  padding: 1em;
+  margin-top: -13em;
+}
+.ImgHoverLenseText:hover{
+opacity: 0.7;
+}
+                          
+.lenseHover:hover{
+  transition: all ease 0.9s;
+  margin-top: -0.5em;
+  
+
+}
  
 /* Style the tab */
 .tab {
@@ -365,14 +396,13 @@ hr {
   background-color: #ccc;
 }
 .active, .accordion:hover {
-  background-color:rgb(255, 242, 235) !important;
+  background-color: #e7f1ff !important;
 }
 
 /* Style the tab content */
 .tabcontent {
   float: left;
   padding: 18px 12px;
- 
   width: 70%;
   border-left: none;
   height: 300px;
@@ -511,6 +541,14 @@ margin-top: 1.3em;
 
 } 
 
+
+
+.InstrumentsResponsive{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* Media Query */
 
 
@@ -587,6 +625,22 @@ margin-top: 1.3em;
     display: block;
     text-align: center;
   
+  }
+
+  /* instruments pages */
+  .InstrumentsResponsive{
+    display: block;
+  
+  }
+  .tabSpeculum{
+    float: left;
+  border:none!;
+  width: 100%;
+  margin-top: 7em;
+  
+  } 
+  .InstrumentsImgs{
+    width: 20em;
   }
 
 }
