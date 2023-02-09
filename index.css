@@ -4,6 +4,9 @@
   width: 100%;
   left: 65%;
 }
+.blueclr{
+  color: rgb(30, 30, 163);
+}
 .tablinks{
   color: rgb(255, 111, 0);
 }
@@ -178,7 +181,7 @@ hr {
 }
 
 .cardImg {
-  width: 7em;
+  width: 5em;
 }
 
 .card {
@@ -530,7 +533,7 @@ ul>li{
 }
 .InstrumentsFlex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .tabSpeculum{
