@@ -25,6 +25,9 @@
 #myBtn:hover {
   background-color: #555;
 }
+  .InstrumentsImgs{
+    width: 60em;
+  }
 .blueclr{
   color: rgb(30, 30, 163);
 }
