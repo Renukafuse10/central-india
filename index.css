@@ -25,8 +25,9 @@
 #myBtn:hover {
   background-color: #555;
 }
+
   .InstrumentsImgs{
-    width: 60em;
+    width: 50em;
   }
 .blueclr{
   color: rgb(30, 30, 163);
@@ -668,6 +669,13 @@ margin-top: 1.3em;
   } 
   .InstrumentsImgs{
     width: 20em;
+  }
+  .tabcontent {
+    float: left;
+    padding: 18px 12px;
+    width: 70%;
+    border-left: none;
+    height: 0px;
   }
 
 }
