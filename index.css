@@ -258,10 +258,10 @@ transition: all ease 0.5s;
   font-weight: 900;
 
 }
-
+/* 
 .listItemsStyleOffcanvas {
   font-family: "Raleway" !important;
-}
+} */
 
 .carouselImg {
   filter: brightness(0.7);
@@ -710,20 +710,27 @@ hr {
 ul>li>a {
   text-decoration: none;
   font-size: 1em;
-
-
-
 }
-
-ul>li {
-  list-style: none;
+.dropdown>.dropdown-menu>li>a{
   margin-top: 1em;
 }
 
+/* instruments list */
+.InstrumentsFlex>ul>li {
+  list-style: none !important;
+  margin-top: 1em;
+  font-size: 1.1em;
+
+}
+.InstrumentsFlex>ul>li:hover{
+  text-decoration:underline !important;
+  
+} 
 .InstrumentsFlex {
   display: flex;
   justify-content: space-between;
 }
+
 
 .tabSpeculum {
   float: left;
@@ -731,6 +738,10 @@ ul>li {
   width: 30%;
   margin-top: 1.3em;
 
+}
+.tabSpeculum>ul>li{
+  list-style: none;
+  margin-top: 1em;
 }
 
 
