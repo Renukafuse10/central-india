@@ -56,4 +56,46 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// function myFunction() {
+//   var input, filter, ul, li, a, i, p, txtValue;
+//   input = document.getElementById("myInput");
+//   filter = input.value.toUpperCase();
+//   ul = document.getElementById("myUL");
+//   li = ul.getElementsByTagName("li");
+//   p = document.getElementById("hiddenText")
+//   for (i = 0; i < li.length; i++) {
+//       a = li[i].getElementsByTagName("a")[0];
+//       txtValue = a.textContent || a.innerText;
+//       if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//           li[i].style.display = "";
+//           p.style.display = "none";
+//       } else {
+//           li[i].style.display = "none";
+//           // alert("no result found")
+//           p.style.display ="block"
+          
+
+//       }
+//   }
+// }
+function myFunction() {
+  var input, filter, ul, li, a, i, txtValue ;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName("li");
+ 
+  for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "block";
+      
+      } else {
+          li[i].style.display = "none";
+
+      }
+  }
+}
+
 
