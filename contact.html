@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="stylesheet" href="./index.css" class="">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/686e939eb9.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="//geodata.solutions/includes/countrystatecity.js"></script>
-    <title>Document</title>
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./index.css" class="">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/686e939eb9.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="//geodata.solutions/includes/countrystatecity.js"></script>
+  <title>Document</title>
+</head>
 
 <body>
   <!-- heros section -->
@@ -44,7 +44,7 @@
 
             <div class="">
               <div class=" collapse navbar-collapse " id="navbarSupportedContent">
-               
+
                 <ul class="navbar-nav " id="myDIV">
                   <li class="nav-item  btn  ">
                     <a class="nav-link listItemsStyle  " href="./index.html">Home</a>
@@ -139,36 +139,37 @@
 
 
 
-  <div class="containter-fluid pb-5" height="100vh">
+  <div class="containter-fluid py-5" height="100vh">
     <div class="row d-flex justify-content-center m-0 p-0 " style="height:100vh">
-      <div class="col-12 col-md-5 col-lg-5 col-xl-5  " height="100vh">
+      <div class="col-12 col-md-6 col-lg-5 col-xl-5  " height="100vh">
         <p class="text-center fs-2 fw-bold m-0 p-0" style=" color: #1982BC; font-family: Raleway!important;">Contact Us
         </p>
         <div class="d-flex justify-content-center">
           <hr class="underline2 m-0 my-2">
         </div>
 
-        <form style="width:100%">
+        <!-- <form onsubmit=" sendEmail(); reset(); return false;" style="width:100%"> -->
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2QmyqlKQPEM7Ox4Sbylyy2RSRwXbskKdTLCjaYH1926ux7Q/formResponse">
           <div class="">
             <p class="m-0 ">Name:</p>
-            <input type="text" placeholder="" id="Name" required>
+            <input type="text" name="entry.1547290118" placeholder="" id="Name" required>
           </div>
           <div class="py-2">
             <p class="m-0 ">Subject:</p>
-            <input type="text" placeholder="" id="Name" required>
+            <input type="text" name="entry.1489007943" placeholder="" id="Subject" required>
           </div>
 
           <div class="d-flex   ">
             <div class="">
               <p class="m-0 p-0">Country:</p>
-              <select name="country" class="countries contactInput" id="countryId" required>
+              <select  class="countries contactInput" name="entry.1315411578" id="countryId" required>
                 <option value="">Select Country</option>
               </select>
             </div>
 
             <div class="">
               <p class="m-0 p-0">State:</p>
-              <select name="state" class="states contactInput" id="stateId" required>
+              <select class="states contactInput" name="entry.312789012" id="stateId" required>
                 <option value="">Select State</option>
               </select>
 
@@ -180,14 +181,14 @@
           <div class="d-flex  py-2 ">
             <div class="">
               <p class="m-0 p-0">City:</p>
-              <select name="city" class="cities contactInput" id="cityId" required>
+              <select name="entry.1769076572"  class="cities contactInput" id="cityId" required>
                 <option value="">Select City</option>
               </select>
             </div>
 
             <div class="">
               <p class="m-0 p-0">Pincode:</p>
-              <input type="text" id="Pindcode" class="contactInput" required>
+              <input type="number" name="entry.1619875471" id="Pindcode" class="contactInput" required>
             </div>
 
           </div>
@@ -198,13 +199,16 @@
           <div class="d-flex justify-content-start">
             <div class="">
               <p class="m-0 p-0">Email:</p>
-              <input type="email" placeholder="" id="Sender" class="contactInput">
+              <input type="email" name="entry.383572373"  placeholder="" id="Sender" class="contactInput">
             </div>
 
 
             <div class="">
               <p class="m-0 p-0">Mobile No:</p>
-              <input type="text" id="Number" class="contactInput">
+              <!-- <input type="number" id="Number" max="10" > -->
+              <input  class="contactInput" id="Number" name="entry.455944974"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                type="number" maxlength="10" />
             </div>
 
           </div>
@@ -214,14 +218,14 @@
 
           <div class="py-2">
             <p class="m-0 p-0">Address:</p>
-            <input type="text" id="Address">
+            <input type="text" name="entry.450174909"  id="Address">
           </div>
           <div class="">
             <p class="m-0 p-0">Message</p>
-            <textarea id="Message"></textarea>
+            <textarea id="Message" name="entry.697717632"></textarea>
           </div>
           <div class=" d-flex justify-content-center">
-            <button class="btnLearMore">submit</button>
+            <button type="submit" class="btnLearMore">submit</button>
           </div>
 
         </form>
@@ -232,7 +236,7 @@
 
 
 
-  
+
 
 
 
@@ -243,7 +247,7 @@
 
 
   <!-- Footer -->
-  <div class="container-fluid  py-5" style="background-color: rgba(0, 0, 0, 0.04);">
+  <div class="container-fluid  pt-5" style="background-color: rgba(0, 0, 0, 0.04); margin-top: 6em;">
     <div class="row d-flex justify-content-center  ">
       <div class=" col-12 col-md-10 col-lg-10 col-xl-10 ">
         <div class="row  d-flex justify-content-center">
@@ -271,10 +275,10 @@
                 <hr class="underline2 m-0 my-2">
               </div>
               <ul class="footerText p-0" align="center">
-                <li><a href="../index.html" class="">Home</a></li>
-                <li><a href="../index.html#OurMoto" class="">About us</a> </li>
-                <li> <a href="../index.html" class=""> Our Product</a></li>
-                <li><a href="../contact.html" class="">Contact Us</a> </li>
+                <li><a href="./index.html" class="">Home</a></li>
+                <li><a href="./index.html#OurMoto" class="">About us</a> </li>
+                <li> <a href="./index.html#ourproductssection" class=""> Our Product</a></li>
+                <li><a href="./contact.html" class="">Contact Us</a> </li>
               </ul>
             </div>
           </div>
@@ -285,11 +289,13 @@
                 <hr class="underline2 m-0 my-2">
               </div>
 
-              <p class="footerText"> <a href="../IntraocularLenses.html" class="">Intraocular Lenses</a> </p>
-              <p class="footerText"> <a href="../Instruments.html" class=""> Instruments</a> </p>
-              <p class="footerText"> <a href="../RetinaInstruments.html" class="">Retina Instruments & Equipments</a>
+              <p class="footerText"> <a href="./IntraocularLenses.html" class="">Intraocular Lenses</a> </p>
+              <p class="footerText"> <a href="./Instruments.html" class=""> Instruments</a> </p>
+              <p class="footerText"> <a href="./RetinaInstruments.html" class="">Retina Instruments & Equipments</a>
               </p>
-              <p class="footerText"> <a href="../Equipments/equipment.html" class="">Equipments</a> </p>
+              <p class="footerText"> <a href="./Equipments/equipment.html" class="">Equipments</a> </p>
+              <p class="footerText"> <a href="./visionDrum.html" class="">Vision Drum</a> </p>
+
 
 
             </div>
@@ -299,7 +305,8 @@
         </div>
       </div>
     </div>
-    <p class="text-center footerText">Copyright © 2022 Central Media Exports. All right reserved.</p>
+    <p class="text-center mt-4 pb-3 mb-0 footerText">Copyright © 2022 Central Media Exports. All right reserved. Design
+      by ProCohat Technologies Pvt. Ltd. </p>
   </div>
 
 
@@ -310,15 +317,33 @@
 
   <script src="./script.js"></script>
 
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "renukafuse17@gmail.com",
+        Password: "password",
+        To: 'renukafuse22@gmail.com',
+        From: document.getElementById("Sender").value,
+        Subject: "New Contact Form Enquiry",
+        Body: "Name:" + document.getElementById("Name").value
+      }).then(
+        message => alert(message)
+      );
 
+    }
+
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
- <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
