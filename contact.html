@@ -149,7 +149,11 @@
         </div>
 
         <!-- <form onsubmit=" sendEmail(); reset(); return false;" style="width:100%"> -->
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2QmyqlKQPEM7Ox4Sbylyy2RSRwXbskKdTLCjaYH1926ux7Q/formResponse">
+        <script type="text/javascript"> var submitted = false </script>
+        <iframe name="hiddenConfirm" style="display:none;" onload="if(submitted){window.location='submit.html';}">
+        </iframe>
+        <form
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2QmyqlKQPEM7Ox4Sbylyy2RSRwXbskKdTLCjaYH1926ux7Q/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true">
           <div class="">
             <p class="m-0 ">Name:</p>
             <input type="text" name="entry.1547290118" placeholder="" id="Name" required>
@@ -162,7 +166,7 @@
           <div class="d-flex   ">
             <div class="">
               <p class="m-0 p-0">Country:</p>
-              <select  class="countries contactInput" name="entry.1315411578" id="countryId" required>
+              <select class="countries contactInput" name="entry.1315411578" id="countryId" required>
                 <option value="">Select Country</option>
               </select>
             </div>
@@ -181,7 +185,7 @@
           <div class="d-flex  py-2 ">
             <div class="">
               <p class="m-0 p-0">City:</p>
-              <select name="entry.1769076572"  class="cities contactInput" id="cityId" required>
+              <select name="entry.1769076572" class="cities contactInput" id="cityId" required>
                 <option value="">Select City</option>
               </select>
             </div>
@@ -199,14 +203,14 @@
           <div class="d-flex justify-content-start">
             <div class="">
               <p class="m-0 p-0">Email:</p>
-              <input type="email" name="entry.383572373"  placeholder="" id="Sender" class="contactInput">
+              <input type="email" name="entry.383572373" placeholder="" id="Sender" class="contactInput">
             </div>
 
 
             <div class="">
               <p class="m-0 p-0">Mobile No:</p>
               <!-- <input type="number" id="Number" max="10" > -->
-              <input  class="contactInput" id="Number" name="entry.455944974"
+              <input class="contactInput" id="Number" name="entry.455944974"
                 oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                 type="number" maxlength="10" />
             </div>
@@ -218,7 +222,7 @@
 
           <div class="py-2">
             <p class="m-0 p-0">Address:</p>
-            <input type="text" name="entry.450174909"  id="Address">
+            <input type="text" name="entry.450174909" id="Address">
           </div>
           <div class="">
             <p class="m-0 p-0">Message</p>
