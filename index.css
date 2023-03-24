@@ -1,5 +1,12 @@
+.ocularSurgeryImg{
+  width: 50em;
+}
+.eyeInstrumentStainless{
+  display: flex;
+}
+
 .ocularSurgeryFooter{
-  margin-top: 55em;
+  margin-top: 50em;
 }
 .muscleForcepfooter{
   margin-top: 12em;
@@ -221,6 +228,7 @@ transition: all ease 0.5s;
 
 .tablinks {
   color: rgb(255, 111, 0);
+  cursor: pointer;
 }
 
 /* .tablinks:hover{
@@ -944,6 +952,9 @@ padding: 1em;
   /* .instrumentHeight{
     height: 550vh;
   } */
+  .ocularSurgeryImg{
+    width: 17em;
+  }
   .acmainterfooter{
     margin-top: 2em;
   }
@@ -1005,7 +1016,8 @@ padding: 1em;
   .contactInput{
     width:8em !important;
   }
-  
+
+ 
   #myInput {
     background-position: 16em 5px;
     width:100%;
@@ -1159,7 +1171,7 @@ width: 16em;
     margin-top: 23em !important; 
   }
   .ocularSurgeryMargin-top{
-    margin-top: 30em !important;
+    margin-top: 35em !important;
   }
 
  
@@ -1197,6 +1209,9 @@ width: 16em;
 
 
 @media screen and (min-device-width : 426px) and (max-device-width : 768px) {
+  .ocularSurgeryImg{
+    width: 22em;
+  }
   .instrumentsetfooter{
     margin-top: 2em;
   }
