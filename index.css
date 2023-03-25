@@ -229,6 +229,9 @@ transition: all ease 0.5s;
 .tablinks {
   color: rgb(255, 111, 0);
   cursor: pointer;
+  /* list-style: circle !important; */
+  /* list-style: -webkit-repeating-radial-gradient(red) !important; */
+list-style:disc !important;
 }
 
 /* .tablinks:hover{
